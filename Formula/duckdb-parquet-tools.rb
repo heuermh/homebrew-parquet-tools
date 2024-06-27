@@ -1,4 +1,4 @@
-class DuckDbParquetTools < Formula
+class DuckdbParquetTools < Formula
   desc "Apache Parquet format tools for DuckDB"
   homepage "https://github.com/heuermh/duckdb-parquet-tools"
   url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/duckdb/duckdb-parquet-tools/1.0.7/duckdb-parquet-tools-1.0.7-bin.tar.gz"
