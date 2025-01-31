@@ -1,8 +1,8 @@
 class DuckdbParquetTools < Formula
   desc "Apache Parquet format tools for DuckDB"
   homepage "https://github.com/heuermh/duckdb-parquet-tools"
-  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/duckdb/duckdb-parquet-tools/1.0.8/duckdb-parquet-tools-1.0.8-bin.tar.gz"
-  sha256 "bb4e2540b9ef574159ea4c15b6cb4d2b655895fcdca64cf4dcf4e91591f24f23"
+  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/duckdb/duckdb-parquet-tools/1.1/duckdb-parquet-tools-1.1-bin.tar.gz"
+  sha256 "563427a7c216096bc1898f541709f91806b8be548901e03d3e13609318c73513"
   license "Apache-2.0"
 
   depends_on "openjdk"
