@@ -1,8 +1,8 @@
 class Cooper < Formula
   desc "Command line tools for AWS s3"
   homepage "https://github.com/heuermh/cooper"
-  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/cooper/cooper/0.3/cooper-0.3-bin.tar.gz"
-  sha256 "eea086eae54fbcf39cb344fd0ca8b89793f7e2f9d7cff1efabdff60c10af2fbc"
+  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/cooper/cooper/0.5/cooper-0.5-bin.tar.gz"
+  sha256 "f0030c8cd56f6885dd8f98b8fb62a840b7f3bc79b2bd41003149ce4a0cd1c900"
   license "Apache-2.0"
 
   depends_on "openjdk"
