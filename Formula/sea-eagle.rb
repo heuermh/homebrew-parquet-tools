@@ -1,8 +1,8 @@
 class SeaEagle < Formula
   desc "Command line tools for AWS Athena"
   homepage "https://github.com/heuermh/sea-eagle"
-  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/seaeagle/sea-eagle/0.7/sea-eagle-0.7-bin.tar.gz"
-  sha256 "ef4d86bf7a004c54fdebe229702f963661f89051d52c096a4bd8ba1a59bb38fa"
+  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/seaeagle/sea-eagle/0.8/sea-eagle-0.8-bin.tar.gz"
+  sha256 "15cb8e17a19ee94148e2d3dc503d976e96ab39b52ca31f016f8df02b5b1e37dc"
   license "Apache-2.0"
 
   depends_on "openjdk"
