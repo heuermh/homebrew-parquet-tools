@@ -1,4 +1,4 @@
-class Cooper < Formula
+class Eider < Formula
   desc "Command line tools for DuckDB"
   homepage "https://github.com/heuermh/eider"
   url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/eider/eider/0.2/eider-0.2-bin.tar.gz"
