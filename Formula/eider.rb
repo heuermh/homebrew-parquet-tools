@@ -1,8 +1,8 @@
-class SeaEagle < Formula
-  desc "Command line tools for AWS Athena"
-  homepage "https://github.com/heuermh/sea-eagle"
-  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/seaeagle/sea-eagle/0.9/sea-eagle-0.9-bin.tar.gz"
-  sha256 "0416e20fe723d78acf01ef1744aa338aa08663a133b8b8edd3433c7b6bf2e384"
+class Cooper < Formula
+  desc "Command line tools for DuckDB"
+  homepage "https://github.com/heuermh/eider"
+  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/eider/eider/0.2/eider-0.2-bin.tar.gz"
+  sha256 "d22f7a65375cbcf15efd27dcfcdaa1959f61d14e25396d4864d326d0d2297ef3"
   license "Apache-2.0"
 
   depends_on "openjdk"
@@ -21,6 +21,6 @@ class SeaEagle < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/se --help")
+    assert_match "usage", shell_output("#{bin}/eider --help")
   end
 end

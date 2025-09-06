@@ -1,8 +1,8 @@
 class Cooper < Formula
   desc "Command line tools for AWS s3"
   homepage "https://github.com/heuermh/cooper"
-  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/cooper/cooper/0.5/cooper-0.5-bin.tar.gz"
-  sha256 "f0030c8cd56f6885dd8f98b8fb62a840b7f3bc79b2bd41003149ce4a0cd1c900"
+  url "https://search.maven.org/remotecontent?filepath=com/github/heuermh/cooper/cooper/0.6/cooper-0.6-bin.tar.gz"
+  sha256 "de1005c7c77ed1ab8f3d495b769e5ac9f402d14be795b6bd5059f793ab014e22"
   license "Apache-2.0"
 
   depends_on "openjdk"
@@ -21,6 +21,6 @@ class Cooper < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/cooper --help")
+    assert_match "usage", shell_output("#{bin}/coop --help")
   end
 end
